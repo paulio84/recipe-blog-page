@@ -1,3 +1,12 @@
+:root {
+  --black: #000000;
+  --gray1: #333333;
+  --gray2: #4f4f4f;
+  --gray3: #a9a9a9;
+  --gray4: #bdbdbd;
+  --orange: #f2994a;
+}
+
 *,
 *::before,
 *::after {
@@ -12,6 +21,7 @@ html {
 }
 
 body {
+  color: var(--black);
   font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
 }
