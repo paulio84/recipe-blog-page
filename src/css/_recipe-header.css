@@ -10,7 +10,13 @@
   margin-bottom: 1.2rem;
 }
 
+.recipe-header--description::before {
+  content: url(../assets/images/6dots.svg);
+  margin-right: 17px;
+}
 .recipe-header--description {
+  color: var(--gray2);
+  display: flex;
   font-size: 0.8571428571428571em;
   font-style: italic;
   margin-bottom: 2.4rem;
