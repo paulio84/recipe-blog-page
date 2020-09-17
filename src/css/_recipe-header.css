@@ -1,0 +1,21 @@
+.recipe-header {
+  font-weight: 500;
+  margin: 1.5rem 0 2.4rem 0;
+}
+
+.recipe-header--title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.7142857142857142em;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.recipe-header--description {
+  font-size: 0.8571428571428571em;
+  font-style: italic;
+  margin-bottom: 2.4rem;
+}
+
+.recipe-header--image {
+  border-radius: 12px;
+}
