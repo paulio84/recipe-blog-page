@@ -31,3 +31,31 @@
 .ingredients--suggestions {
   font-style: italic;
 }
+
+@media only screen and (min-width: 768px) {
+  .ingredients {
+    width: 66%;
+  }
+  .ingredients--title {
+    font-size: 1.5em;
+    margin-bottom: 2.6rem;
+  }
+  .ingredients--section-header {
+    font-size: 1.2857142857142858em;
+    margin-bottom: 2.6rem;
+  }
+  .ingredients--item {
+    font-size: 1.1428571428571428;
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .ingredients {
+    width: 55%;
+  }
+  .ingredients--title {
+    font-size: 1.7142857142857142em;
+    margin-bottom: 3rem;
+  }
+}

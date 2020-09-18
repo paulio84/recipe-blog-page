@@ -1,5 +1,5 @@
 .recipe-source {
-  font-size: 0.871428571428571em;
+  font-size: 0.8571428571428571em;
   font-style: italic;
 }
 
@@ -13,4 +13,10 @@
   font-weight: 600;
   justify-content: center;
   margin: 15.5rem 0 2.1rem 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .recipe-source {
+    font-size: 1.1428571428571428em;
+  }
 }
