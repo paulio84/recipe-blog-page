@@ -4,6 +4,7 @@
 }
 
 .recipe-header--title {
+  color: var(--black);
   font-family: 'Playfair Display', serif;
   font-size: 1.7142857142857142em;
   font-weight: 700;
