@@ -15,7 +15,6 @@
   margin-right: 17px;
 }
 .recipe-header--description {
-  color: var(--gray2);
   display: flex;
   font-size: 0.8571428571428571em;
   font-style: italic;

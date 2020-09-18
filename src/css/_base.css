@@ -38,3 +38,20 @@ img {
 ul {
   list-style: none;
 }
+
+/* Utilities */
+.orange-text {
+  color: var(--orange);
+}
+
+.gray1-text {
+  color: var(--gray1);
+}
+
+.gray2-text {
+  color: var(--gray2);
+}
+
+.gray4-text {
+  color: var(--gray4);
+}
