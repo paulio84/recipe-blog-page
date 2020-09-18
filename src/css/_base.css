@@ -69,3 +69,7 @@ ul {
 .extra-margin-top-32 {
   margin-top: 3.2rem;
 }
+
+.bold-text {
+  font-weight: 700;
+}

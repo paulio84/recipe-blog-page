@@ -1,0 +1,28 @@
+.instructions--title {
+  margin-bottom: 3.2rem;
+}
+
+.instructions--steps {
+  font-size: 1.1428571428571428em;
+  list-style: none;
+  counter-reset: li;
+}
+
+.instructions--step {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 2.5rem;
+  counter-increment: li;
+}
+
+.instructions--step::before {
+  background-color: var(--orange);
+  border-radius: 6px;
+  color: white;
+  content: counter(li);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.7142857142857142em;
+  margin-right: 1.5rem;
+  min-width: 36px;
+  text-align: center;
+}

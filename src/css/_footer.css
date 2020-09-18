@@ -1,4 +1,13 @@
-.footer {
+.recipe-source {
+  font-size: 0.871428571428571em;
+  font-style: italic;
+}
+
+.recipe-source a {
+  text-decoration: none;
+}
+
+.page-footer {
   color: #a9a9a9;
   display: flex;
   font-weight: 600;
