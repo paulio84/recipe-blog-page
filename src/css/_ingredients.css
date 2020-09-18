@@ -1,0 +1,37 @@
+.ingredients {
+  margin-bottom: 2.4rem;
+}
+
+.ingredients--title {
+  margin-bottom: 1.3rem;
+}
+
+.ingredients--section-header {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1428571428571428em;
+  font-style: italic;
+  margin-bottom: 2.3rem;
+}
+
+.ingredients--item {
+  margin-bottom: 1rem;
+}
+
+.ingredients--item label {
+  display: flex;
+}
+
+.ingredients--item input[type='checkbox'] {
+  color: var(--gray3);
+  height: 21px;
+  margin-right: 0.8rem;
+  min-width: 21px;
+}
+
+.ingredients--item-name {
+  font-weight: 700;
+}
+
+.ingredients--suggestions {
+  font-style: italic;
+}
