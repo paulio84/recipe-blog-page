@@ -1,0 +1,19 @@
+.servings--info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipe-info {
+  align-items: center;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.recipe-info--icon {
+  font-size: 1.2857142857142858em;
+  margin-right: 0.7rem;
+}
+
+.recipe-info--text p:first-child {
+  font-size: 0.7142857142857143em;
+}
